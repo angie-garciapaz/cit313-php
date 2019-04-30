@@ -8,6 +8,8 @@
 </head>
 
 <body>
+
+<?php include ('header.php') ?> 
 <h1>Welcome</h1>
 <p>You are not logged in.</p>
     <script src=""></script>
