@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +10,12 @@
 
 <body>
 
-<?php include ('header.php') ?> 
-<h1>Welcome</h1>
-<p>You are not logged in.</p>
-    <script src=""></script>
+    <?php require('header.php') ?>
+
+    <main>
+        <h1>Welcome</h1>
+        <p>You are not logged in.</p>
+    </main>
 </body>
+
 </html>

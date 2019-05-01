@@ -9,9 +9,10 @@
 </head>
 
 <body>
-<?php include ('header.php') ?> 
+<?php require ('header.php') ?> 
 
 <h1>Login</h1>
+
 <a href="#" class="button">Log in as Admin</a>
 <a href="#" class="button">Log in as Tester</a>
     <script src=""></script>
