@@ -53,3 +53,7 @@ li a:hover {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+main{
+    font-family: 'Poppins', sans-serif;
+}
