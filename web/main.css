@@ -1,9 +1,13 @@
-#menu ul
-{
-    list-style-type: none;
+body, html {
+	height: 100%;
 }
 
-#menu
+nav
 {
     background-color: red;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
 }
