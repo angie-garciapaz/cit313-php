@@ -10,6 +10,11 @@
 
 <body>
 
+<header>
+    
+</header>
+
+<!-- menu goes here -->
     <?php require('header.php') ?>
 
     <main>
