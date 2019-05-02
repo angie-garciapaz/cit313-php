@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<?php $page= 'login';require ('header.php') ?> 
+<?php $page = 'login';require ('header.php') ?> 
 <main>
 <h2>Login</h2>
 </main>

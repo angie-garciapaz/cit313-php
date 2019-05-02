@@ -15,7 +15,7 @@
 </header>
 
 <!-- menu goes here -->
-    <?php $page= 'home';require('header.php') ?>
+    <?php $page = 'home';require('header.php') ?>
 
     <main>
         <h2>Welcome</h2>
