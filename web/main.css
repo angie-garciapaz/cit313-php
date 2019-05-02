@@ -46,8 +46,14 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
+.active
+{
+    background-color:#627E8F;
+    padding: 14px 16px;
+}
 
-.active,li a:hover {
+
+li a:hover {
     background-color:#627E8F;
 }
 
