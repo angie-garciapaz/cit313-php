@@ -55,6 +55,12 @@ li a:hover {
     cursor: pointer;
 }
 
+.button:hover
+{
+    background-color: #64958e;
+}
+
+/* main css goes here */
 main {
     font-family: 'Poppins', sans-serif;
 }
