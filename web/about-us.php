@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<?php require ('header.php') ?> 
+<?php $page= 'about-us';require ('header.php') ?> 
 
 <main>
 <h2>About Us</h2>
