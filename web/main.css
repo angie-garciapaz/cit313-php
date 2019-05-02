@@ -47,7 +47,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 
-li a:hover {
+.active,li a:hover {
     background-color:#627E8F;
 }
 
@@ -65,7 +65,7 @@ li a:hover {
     cursor: pointer;
 }
 
-.active ,.button:hover
+.button:hover
 {
     background-color: #64958e;
 }
