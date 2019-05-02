@@ -11,7 +11,7 @@
 <?php require ('header.php') ?> 
 
 <main>
-<h1>About Us</h1>
+<h2>About Us</h2>
 <p>We believe in sustainable products and protecting the earth. Our diapers reduce carbon foot prints and made from recycled materials.</p>
 </main>
 </body>
