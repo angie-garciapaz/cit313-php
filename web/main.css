@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+/* color scheme
+green - #52AEA0
+navy - #224E6A
+lite navy -#627E8F
+pink - #FFB0A2
+grey - #737373 */
+
+
 body, html {
     height: 100%;
 }
@@ -55,7 +65,7 @@ li a:hover {
     cursor: pointer;
 }
 
-.button:hover
+.active ,.button:hover
 {
     background-color: #64958e;
 }
