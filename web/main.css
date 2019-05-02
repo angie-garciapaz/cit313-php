@@ -38,11 +38,12 @@ li a {
 /* Change the link color to #111 (black) on hover */
 
 li a:hover {
-    background-color: #FFB0A2;
+    background-color:#627E8F;
 }
 
 .button {
-    background-color: #4CAF50;
+    font-family: 'Poppins', sans-serif;
+    background-color:#52AEA0;
     border: none;
     color: white;
     padding: 15px 32px;

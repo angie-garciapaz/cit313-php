@@ -10,11 +10,10 @@
 
 <body>
 <?php require ('header.php') ?> 
-
-<h1>Login</h1>
-
+<main>
+<h2>Login</h2>
+</main>
 <a href="#" class="button">Log in as Admin</a>
 <a href="#" class="button">Log in as Tester</a>
-    <script src=""></script>
 </body>
 </html>

@@ -13,7 +13,7 @@
     <?php require('header.php') ?>
 
     <main>
-        <h1>Welcome</h1>
+        <h2>Welcome</h2>
         <p>You are not logged in.</p>
     </main>
 </body>
