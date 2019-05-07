@@ -43,9 +43,8 @@ li a {
     text-decoration: none;
     color: white;
     padding: 14px 16px;
-}
 
-/* Change the link color to #111 (black) on hover */
+/* hover and active code */
 .active
 {
     background-color:#627E8F;
