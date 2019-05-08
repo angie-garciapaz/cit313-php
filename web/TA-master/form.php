@@ -14,7 +14,7 @@
     <div class="jumbotron">
         <form action="submitted.php" method="post">
             <legend>
-                <h2>Leave a Review</h2>
+                <h1>Leave a Review</h1>
                 <div class=form-group>
                     <label for="name">Name: </label>
                     <input type="text" name="name" class="form-control" value="<?php echo $name ?>">
