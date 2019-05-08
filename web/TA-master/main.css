@@ -8,12 +8,16 @@ body{
 .jumbotron{
     background-color: white;
     max-width: 70%;
-    margin: auto 0px;
+    margin: 0 auto;
     padding: 10px;
+    display: flex-wrap;
+  justify-content: center;
+
 }
 
 .form-group
 {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    al
 }
