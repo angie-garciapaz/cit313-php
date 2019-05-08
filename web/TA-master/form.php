@@ -12,6 +12,7 @@
     <form action="submitted.php" method="post">
     <legend>
     <h1>Leave a Review</h1>
+</div>
     <div class=form-group>
     <label for="name">Name: </label>
     <input type="text" name="name" class="form-control" value="<?php echo $name ?>">
@@ -60,6 +61,5 @@
     </div>
     </legend>
     </form>
-</div>
 </body>
 </html>
