@@ -44,14 +44,16 @@ if (empty($_POST["comments"])) {
 
 <body>
   <div class="jumbotron">
+    <h1>Review</h1>  
     <p>Name: <?php echo $name ?></p>
     <p>Where you've visited:
       <?php
       foreach ($continents as $continent) {
-        if ($continenets > 1)
+        // if ($continenets[] > 1)
+        // I wanted to make an if statement cause the comma isn't always needed
         echo $continent . ", ";
-        else
-        echo $continent;
+        // else
+        // echo $continent;
       }
       ?>
     </p>
