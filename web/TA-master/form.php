@@ -56,7 +56,7 @@
                 <hr>
                 <div class=form-group>
                     <label for="comments">Comments</label><br>
-                    <textarea name="comments" id="" cols="30" rows="10"></textarea>
+                    <textarea name="comments" id="" cols="70" rows="5"></textarea>
                 </div>
                 <div>
                     <input type="submit" name="submit" value="submit" class="btn btn-warning btn-lg btn-block">
