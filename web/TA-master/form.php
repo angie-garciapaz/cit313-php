@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="jumbotron container">
+    <div class="jumbotron">
         <form action="submitted.php" method="post">
             <legend>
                 <h2>Leave a Review</h2>
