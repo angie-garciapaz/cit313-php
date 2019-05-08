@@ -59,7 +59,7 @@
                     <textarea name="comments" id="" cols="30" rows="10"></textarea>
                 </div>
                 <div>
-                    <input type="submit" name="submit" value="submit">
+                    <input type="submit" name="submit" value="submit" class="btn btn-warning btn-lg btn-block">
                 </div>
             </legend>
         </form>
