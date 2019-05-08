@@ -23,7 +23,7 @@
                     <label for="email">Email: </label>
                     <input type="text" name="email" class="form-control" value="<?php echo $email ?>">
                 </div>
-                <div>
+                <div class=form-group>
                     <hr>
                     <h3>Major</h3>
                     <label for="major">Computer Science </label>
@@ -36,7 +36,7 @@
                     <input type="radio" name="major" value="Computer Engineering" <?php if (isset($major) && $major == "Computer Engineering") echo "checked"; ?>>
                 </div>
                 <hr>
-                <div>
+                <div class=form-group>
                     <h3>Continents Visited</h3>
                     <label for="continents">North America</label>
                     <input type="checkbox" name="continents[]" value="North America" <?php if (isset($continents) && $continents == "North America") echo "checked"; ?>><br>
@@ -54,7 +54,7 @@
                     <input type="checkbox" name="continents[]" value="Antarctica" <?php if (isset($continents) && $continents == "Antarctica") echo "checked"; ?>>
                 </div>
                 <hr>
-                <div>
+                <div class=form-group>
                     <label for="comments">Comments</label><br>
                     <textarea name="comments" id="" cols="30" rows="10"></textarea>
                 </div>
