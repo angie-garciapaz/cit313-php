@@ -12,12 +12,18 @@ body{
     padding: 10px;
     display: flex-wrap;
   justify-content: center;
-  box-shadow: 5px 10px 8px #F0F0F0;
+  box-shadow: 5px 10px 8px #E0E0E0;
 
 }
 
 .form-group
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
+}
+
+.btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
 }
