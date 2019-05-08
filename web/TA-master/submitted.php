@@ -46,6 +46,7 @@ if (empty($_POST["comments"])) {
   <div class="jumbotron">
     <h1>Review</h1>  
     <p>Name: <?php echo $name ?></p>
+    <p>Email: <?php echo $email ?></p>
     <p>Where you've visited:
       <?php
       foreach ($continents as $continent) {
