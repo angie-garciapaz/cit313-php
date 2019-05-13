@@ -4058,7 +4058,6 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  background-color: #C73E1D;
 }
 
 .nav-link {
@@ -6579,7 +6578,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #C73E1D; !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
