@@ -31,11 +31,11 @@
       <div class="col-lg-3">
 
         <h1 class="my-4">Plates</h1>
-        <div class="list-group">
+        <!-- <div class="list-group">
           <a href="#" class="list-group-item">Category 1</a>
           <a href="#" class="list-group-item">Category 2</a>
           <a href="#" class="list-group-item">Category 3</a>
-        </div>
+        </div> -->
 
       </div>
       <!-- /.col-lg-3 -->
@@ -76,9 +76,9 @@
               <a href="#"><img class="card-img-top" src="../week3/images/pic1-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item One</a>
+                  <a href="#">Chicken Korma</a>
                 </h4>
-                <h5>$24.99</h5>
+                <h5>$14.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
               </div>
               <div class="card-footer">
@@ -92,9 +92,9 @@
               <a href="#"><img class="card-img-top" src="../week3/images/pic2-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Two</a>
+                  <a href="#">Samoasas</a>
                 </h4>
-                <h5>$24.99</h5>
+                <h5>$9.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
               </div>
               <div class="card-footer">
@@ -108,9 +108,9 @@
               <a href="#"><img class="card-img-top" src="../week3/images/pic3-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Three</a>
+                  <a href="#">Naan</a>
                 </h4>
-                <h5>$24.99</h5>
+                <h5>$4.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
               </div>
               <div class="card-footer">
@@ -124,7 +124,7 @@
               <a href="#"><img class="card-img-top" src="../week3/images/pic4-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Four</a>
+                  <a href="#">Chicken Tikka Masala</a>
                 </h4>
                 <h5>$24.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -140,9 +140,9 @@
               <a href="#"><img class="card-img-top" src="../week3/images/pic5-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Five</a>
+                  <a href="#">Sweet Potatoe Dahl</a>
                 </h4>
-                <h5>$24.99</h5>
+                <h5>$3.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
               </div>
               <div class="card-footer">
@@ -156,9 +156,9 @@
               <a href="#"><img class="card-img-top" src="../week3/images/pic6-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Six</a>
+                  <a href="#">Chicken Mughalai</a>
                 </h4>
-                <h5>$24.99</h5>
+                <h5>$14.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
               </div>
               <div class="card-footer">
