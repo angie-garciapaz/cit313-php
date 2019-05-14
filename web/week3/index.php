@@ -86,8 +86,9 @@ session_start()
                   <label for="name">Chicken Korma</label>
                   <?php
                   // Set session variables
-                  $my_array = array('image', 'Chicken Korma', '$14.99');
-                  $_SESSION['meal1'] = $my_array;
+                  $my_array = array();
+                  array_push($my_array,"{image: 'image', name: 'Chicken Korma', price: '$14.99'}");
+                  $_SESSION['meals'] = $my_array;
                   ?>
                 </h4>
                 <h5>$14.99</h5>
@@ -110,7 +111,7 @@ session_start()
                   <?php
                   // Set session variables
                   $my_array = array('image', 'Samosas', '$4.99');
-                  $_SESSION['meal1'] = $my_array;
+                  $_SESSION['meals'] = $my_array;
                   ?>
                 </h4>
                 <h5>$9.99</h5>
@@ -132,7 +133,7 @@ session_start()
                   <?php
                   // Set session variables
                   $my_array = array('image', 'Naan', '$4.99');
-                  $_SESSION['meal1'] = $my_array;
+                  $_SESSION['meals'] = $my_array;
                   ?>
                 </h4>
                 <h5>$4.99</h5>
@@ -154,7 +155,7 @@ session_start()
                   <?php
                   // Set session variables
                   $my_array = array('image', 'Chicken Tikka Masala', '$13.99');
-                  $_SESSION['meal1'] = $my_array;
+                  $_SESSION['meals'] = $my_array;
                   ?>
                 </h4>
                 <h5>$13.99</h5>
@@ -176,7 +177,7 @@ session_start()
                   <?php
                   // Set session variables
                   $my_array = array('image', 'Sweet Potatoe Dahl', '$3.99');
-                  $_SESSION['meal1'] = $my_array;
+                  $_SESSION['meals'] = $my_array;
                   ?>
                 </h4>
                 <h5>$3.99</h5>
@@ -198,7 +199,7 @@ session_start()
                   <?php
                   // Set session variables
                   $my_array = array('image', 'Chicken Mughali', '$14.99');
-                  $_SESSION['meal1'] = $my_array;
+                  $_SESSION['meals'] = $my_array;
                   ?>
                 </h4>
                 <h5>$14.99</h5>

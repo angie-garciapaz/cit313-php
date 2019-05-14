@@ -33,8 +33,13 @@ session_start();
     <?php
     // Echo session variables that were set on previous page
     //set up a loop
-    foreach($_SESSION['meal1'] as $key=>$value)
+    foreach($_SESSION['meals'] as $key=>$value)
     {
+        //bootstrap columns
+        //values are object value->name
+        //hr
+        //session remove
+        //class
         echo "$value ";
     }
     ?>
