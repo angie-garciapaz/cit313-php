@@ -101,7 +101,7 @@ session_start()
               <a href="#"><img class="card-img-top" src="../week3/images/pic2-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Samoasas</a>
+                <label for="name">Samosas</label>
                   <?php
                   // Set session variables
                   $my_array = array('image', 'Samosas', '$4.99');
@@ -123,7 +123,7 @@ session_start()
               <a href="#"><img class="card-img-top" src="../week3/images/pic3-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Naan</a>
+                <label for="name">Naan</label>
                 </h4>
                 <h5>$4.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -140,7 +140,7 @@ session_start()
               <a href="#"><img class="card-img-top" src="../week3/images/pic4-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Chicken Tikka Masala</a>
+                <label for="name">Chicken Tikka Masala</label>
                 </h4>
                 <h5>$13.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -157,7 +157,7 @@ session_start()
               <a href="#"><img class="card-img-top" src="../week3/images/pic5-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Sweet Potatoe Dahl</a>
+                <label for="name">Sweet Potatoe Dahl</label>
                 </h4>
                 <h5>$3.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
@@ -174,7 +174,7 @@ session_start()
               <a href="#"><img class="card-img-top" src="../week3/images/pic6-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Chicken Mughalai</a>
+                  <label for="name">Chicken Mughalai</label>
                 </h4>
                 <h5>$14.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
