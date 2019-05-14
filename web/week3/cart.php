@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <h1>you've ordered</h1>
 
 <?php
