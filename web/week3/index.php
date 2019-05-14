@@ -74,6 +74,7 @@ session_start()
           </a>
         </div>
 
+        <!-- FOOD BEGINS HERE -->
         <h3>Menu</h3>
         <div class="row">
 
@@ -87,10 +88,10 @@ session_start()
                 <h5>$14.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
               </div>
-              <div class="card-footer">
+              <!-- <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
-              <a href="#" type="button" class="btn btn-warning">Add to Cart</button>
+              </div> -->
+              <a href="cart.php" type="button" class="btn btn-warning">Add to Cart</button>
             </div>
           </div>
 
