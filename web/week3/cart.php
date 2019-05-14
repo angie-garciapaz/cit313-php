@@ -35,7 +35,7 @@ session_start();
     //set up a loop
     foreach($_SESSION['meal1'] as $key=>$value)
     {
-        echo "Name: $key, Age: $value <br />";
+        echo "$value ";
     }
     ?>
 
