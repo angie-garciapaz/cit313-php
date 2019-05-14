@@ -26,7 +26,7 @@ session_start()
 <body>
 
   <!-- Navigation -->
-  <?php include 'nav.php';?>
+  <?php include 'nav.php'; ?>
 
   <!-- Page Content -->
   <div class="container">
@@ -83,17 +83,21 @@ session_start()
               <a href="#"><img class="card-img-top" src="../week3/images/pic1-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Chicken Korma</a>
+                  <label for="name">Chicken Korma</label>
+                  <?php
+                  // Set session variables
+                  $_SESSION["meal1"] = "Chicken Korma";
+                  ?>
                 </h4>
                 <h5>$14.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-                <a href="cart.php" class="btn btn-warning btn-lg">Add to Cart</a>
+                <input type="submit" name="submit" value="Add to Cart" class="btn btn-warning btn-lg">
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
               </div>
             </div>
-            
+
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
@@ -191,9 +195,9 @@ session_start()
     <!-- /.row -->
 
   </div>
-  
+
   <!-- /.container -->
-  <?php include 'footer.php';?>
+  <?php include 'footer.php'; ?>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -202,4 +206,3 @@ session_start()
 </body>
 
 </html>
-
