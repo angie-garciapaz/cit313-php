@@ -23,7 +23,7 @@ session_start();
 </head>
 
 <body>
-
+<div class="col-xs-12">
     <!-- Navigation -->
     <?php include 'nav.php'; ?>
 
@@ -39,7 +39,7 @@ session_start();
     }
     ?>
 
-</body>
+</div>
 
 <!-- /.container -->
 <?php include 'footer.php'; ?>
