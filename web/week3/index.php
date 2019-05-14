@@ -91,7 +91,7 @@ session_start()
                 </h4>
                 <h5>$14.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-                <input type="submit" name="submit" value="Add to Cart" class="btn btn-warning btn-lg">
+                <a href="cart.php" class="btn btn-warning btn-lg">Add to Cart</a>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
