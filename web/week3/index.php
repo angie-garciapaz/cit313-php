@@ -88,11 +88,11 @@ session_start()
                 <h5>$14.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
               </div>
-              <!-- <div class="card-footer">
+              <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div> -->
-              <a href="cart.php" type="button" class="btn btn-warning">Add to Cart</button>
+              </div>
             </div>
+            <a href="#" class="btn btn-warning">Add to Cart</button>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
