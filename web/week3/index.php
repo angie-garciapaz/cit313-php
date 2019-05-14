@@ -1,3 +1,8 @@
+<?php
+session_start()
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,7 +55,7 @@
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img class="d-block img-fluid" src="../week3/images/pic3-93.jpg" alt="First slide">
+              <img class="d-block img-fluid" src="../week3/images/pic7-93.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
               <img class="d-block img-fluid" src="../week3/images/pic2-93.jpg" alt="Second slide">
