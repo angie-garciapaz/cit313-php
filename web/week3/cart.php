@@ -32,7 +32,11 @@ session_start();
 
     <?php
     // Echo session variables that were set on previous page
-    echo $_SESSION['meal1'] . ".<br>";
+    //set up a loop
+    foreach($_SESSION['meal1'] as $key=>$value)
+    {
+        echo "Name: $key, Age: $value <br />";
+    }
     ?>
 
 </body>
