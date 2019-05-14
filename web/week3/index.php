@@ -88,6 +88,7 @@ session_start()
                   // Set session variables
                   $my_array = array('image', 'Chicken Korma', '$14.99');
                   $_SESSION['meal1'] = $my_array;
+                  echo "stuff is in array";
                   ?>
                 </h4>
                 <h5>$14.99</h5>
