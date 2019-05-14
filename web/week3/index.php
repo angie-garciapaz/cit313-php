@@ -86,7 +86,7 @@ session_start()
                   <label for="name">Chicken Korma</label>
                   <?php
                   // Set session variables
-                  $my_array=array('image', 'Chicken Korma', '$14.99');
+                  $my_array = array('image', 'Chicken Korma', '$14.99');
                   $_SESSION['meal1']=$my_array;
                   ?>
                 </h4>
