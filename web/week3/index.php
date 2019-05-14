@@ -84,12 +84,6 @@ session_start()
               <div class="card-body">
                 <h4 class="card-title">
                   <label for="name">Chicken Korma</label>
-                  <?php
-                  // Set session variables
-                  $my_array = array('image', 'Chicken Korma', '$14.99');
-                  $_SESSION['meal1'] = $my_array;
-                  echo "stuff is in array";
-                  ?>
                 </h4>
                 <h5>$14.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -108,6 +102,11 @@ session_start()
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="#">Samoasas</a>
+                  <?php
+                  // Set session variables
+                  $my_array = array('image', 'Samosas', '$4.99');
+                  $_SESSION['meal1'] = $my_array;
+                  ?>
                 </h4>
                 <h5>$9.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
