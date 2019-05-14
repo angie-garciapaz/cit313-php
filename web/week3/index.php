@@ -50,7 +50,7 @@
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img class="d-block img-fluid" src="https://dinnerthendessert.com/wp-content/uploads/2018/03/Chicken-Korma.jpg" alt="First slide">
+              <img class="d-block img-fluid" src="" alt="First slide">
             </div>
             <div class="carousel-item">
               <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide">
