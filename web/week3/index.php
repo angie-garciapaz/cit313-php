@@ -84,6 +84,11 @@ session_start()
               <div class="card-body">
                 <h4 class="card-title">
                   <label for="name">Chicken Korma</label>
+                  <?php
+                  // Set session variables
+                  $my_array = array('image', 'Chicken Korma', '$14.99');
+                  $_SESSION['meal1'] = $my_array;
+                  ?>
                 </h4>
                 <h5>$14.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -101,7 +106,7 @@ session_start()
               <a href="#"><img class="card-img-top" src="../week3/images/pic2-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                <label for="name">Samosas</label>
+                  <label for="name">Samosas</label>
                   <?php
                   // Set session variables
                   $my_array = array('image', 'Samosas', '$4.99');
@@ -123,7 +128,12 @@ session_start()
               <a href="#"><img class="card-img-top" src="../week3/images/pic3-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                <label for="name">Naan</label>
+                  <label for="name">Naan</label>
+                  <?php
+                  // Set session variables
+                  $my_array = array('image', 'Naan', '$4.99');
+                  $_SESSION['meal1'] = $my_array;
+                  ?>
                 </h4>
                 <h5>$4.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -140,7 +150,12 @@ session_start()
               <a href="#"><img class="card-img-top" src="../week3/images/pic4-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                <label for="name">Chicken Tikka Masala</label>
+                  <label for="name">Chicken Tikka Masala</label>
+                  <?php
+                  // Set session variables
+                  $my_array = array('image', 'Chicken Tikka Masala', '$13.99');
+                  $_SESSION['meal1'] = $my_array;
+                  ?>
                 </h4>
                 <h5>$13.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -157,7 +172,12 @@ session_start()
               <a href="#"><img class="card-img-top" src="../week3/images/pic5-74.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                <label for="name">Sweet Potatoe Dahl</label>
+                  <label for="name">Sweet Potatoe Dahl</label>
+                  <?php
+                  // Set session variables
+                  $my_array = array('image', 'Sweet Potatoe Dahl', '$3.99');
+                  $_SESSION['meal1'] = $my_array;
+                  ?>
                 </h4>
                 <h5>$3.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
@@ -175,6 +195,11 @@ session_start()
               <div class="card-body">
                 <h4 class="card-title">
                   <label for="name">Chicken Mughalai</label>
+                  <?php
+                  // Set session variables
+                  $my_array = array('image', 'Chicken Mughali', '$14.99');
+                  $_SESSION['meal1'] = $my_array;
+                  ?>
                 </h4>
                 <h5>$14.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
