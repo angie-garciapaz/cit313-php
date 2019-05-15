@@ -87,7 +87,7 @@ session_start()
                   <?php
                   // Set session variables
                   $my_array = array();
-                  array_push($my_array,"{image: 'image', name: 'Chicken Korma', price: '$14.99'}");
+                  array_push($my_array,"{image: 'images/pic1-3', name: 'Chicken Korma', price: '$14.99'}");
                   $_SESSION['meals'] = $my_array;
                   ?>
                 </h4>

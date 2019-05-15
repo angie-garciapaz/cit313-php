@@ -35,7 +35,7 @@ session_start();
     //set up a loop
     foreach($_SESSION['meals'] as $key=>$value)
     {
-        //bootstrap columns
+        
         //values are object value->name
         //hr
         //session remove
@@ -43,6 +43,28 @@ session_start();
         echo "$value ";
     }
     ?>
+    
+    <!-- image goes here -->
+    <div class="col-xs-3">
+
+    </div>
+
+    <!-- description goes here -->
+    <div class="col-xs-5">
+
+    </div>
+
+    <!-- prices goes here -->
+    <div class="col-xs-2">
+
+    </div>
+
+    <!-- remove button goes here -->
+    <div class="col-xs-2">
+
+    </div>
+    </div>
+    
 
 </div>
 
