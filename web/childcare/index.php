@@ -1,0 +1,4 @@
+<?php
+INCLUDE 'db.php';
+
+?>
