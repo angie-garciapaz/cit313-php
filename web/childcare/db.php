@@ -3,12 +3,12 @@
 
 try
 {
-  $dbUrl = getenv(' postgres://smhkqqdzgjssjg:77b31a7b189b95b83ec22277daa1250a380c43f2906094451eb1b3a708f7e06a@ec2-54-225-106-93.compute-1.amazonaws.com:5432/dcvq7k5qiu42ce');
+  $dbUrl = getenv('DATABASE_URL');
 
   $dbOpts = parse_url($dbUrl);
 
   $dbHost = $dbOpts["host"];
-  $dbPort = $dbOpts["port"];
+  $dbPort = 5432;// $dbOpts["port"];
   $dbUser = $dbOpts["user"];
   $dbPassword = $dbOpts["pass"];
   $dbName = ltrim($dbOpts["path"],'/');
