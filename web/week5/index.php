@@ -27,6 +27,7 @@ catch (PDOException $ex)
 
 <html>
 <body>
+<h1>hello wrold</h1>
 
 <?php
 
@@ -67,6 +68,5 @@ foreach ($db->query('SELECT now()') as $row)
 
 
 ?>
-<h1>hello wrold</h1>
 </body>
 </html>
