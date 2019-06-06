@@ -1,5 +1,5 @@
 <?php
-INCLUDE 'mydb.php';
+INCLUDE 'db.php';
 
 ?>
 
