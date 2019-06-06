@@ -63,7 +63,9 @@ foreach ($db->query('SELECT now()') as $row)
  print "<p>$row[0]</p>\n\n";
 }
 
-?>
 
+
+?>
+<h1>hello wrold</h1>
 </body>
 </html>
