@@ -42,8 +42,7 @@ session_start();
         }
 
         $myObj = JSON.parse($_POST["submit"]);
-        var_dump($myObj);
-
+        var_dump($_POST);
         ?>
 
         <!-- image goes here -->
