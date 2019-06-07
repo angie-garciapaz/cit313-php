@@ -23,57 +23,57 @@ session_start();
 </head>
 
 <body>
-<div class="col-xs-12">
-    <!-- Navigation -->
-    <?php include 'nav.php'; ?>
+    <div class="col-xs-12">
+        <!-- Navigation -->
+        <?php include 'nav.php'; ?>
 
 
-    <h1>you've ordered</h1>
+        <h1>Order</h1>
 
-    <?php
-    // Echo session variables that were set on previous page
-    //set up a loop
-    foreach($_SESSION['meals'] as $key=>$value)
-    {
-        
-        //values are object value->name
-        //hr
-        //session remove
-        //class
-        echo "$value ";
-    }
-    ?>
-    
-    <!-- image goes here -->
-    <div class="col-xs-3">
+        <?php
+        if (isset($_POST["submit"])) {
+            //if it's already added
+            if (isset($_SESSION["cart"][$_POST["submit"]])) {
+                //we're going to add one to it
+                $_SESSION["cart"][$_POST["submit"]] += 1;
+            } else
+                //this is if it hasn't been added
+                $_SESSION["cart"][$_POST["submit"]] = 1;
+        }
+
+
+        ?>
+
+        <!-- image goes here -->
+        <div class="col-xs-3">
+
+        </div>
+
+        <!-- description goes here -->
+        <div class="col-xs-5">
+
+        </div>
+
+        <!-- prices goes here -->
+        <div class="col-xs-2">
+
+        </div>
+
+        <!-- remove button goes here -->
+        <div class="col-xs-2">
+
+        </div>
+    </div>
+
 
     </div>
 
-    <!-- description goes here -->
-    <div class="col-xs-5">
+    <!-- /.container -->
+    <?php include 'footer.php'; ?>
 
-    </div>
-
-    <!-- prices goes here -->
-    <div class="col-xs-2">
-
-    </div>
-
-    <!-- remove button goes here -->
-    <div class="col-xs-2">
-
-    </div>
-    </div>
-    
-
-</div>
-
-<!-- /.container -->
-<?php include 'footer.php'; ?>
-
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
