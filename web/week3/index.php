@@ -88,17 +88,11 @@ session_start();
                 <h4 class="card-title">
                   <form action="cart.php" method="POST">
                   <label for="name">Chicken Korma</label>
-                  <?php
-                  // Set session variables
-                  $my_array = array();
-                  array_push($my_array,"{image: 'images/pic1-3', name: 'Chicken Korma', price: '$14.99'}");
-                  $_SESSION['meals'] = $my_array;
-                  ?>
                 </h4>
                 <h5>$14.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-                <button type="submit" name="submit" value="{image: 'images/pic1-3', name: 'Chicken Korma', price: '$14.99'}" class="btn btn-warning btn-lg">Add to Cart</button>
-                </form>
+                <input type="submit" name="submit" value="{image: 'images/pic1-3', name: 'Chicken Korma', price: '$14.99'}" class="btn btn-warning btn-lg">Add to cart
+              </form>
 
               </div>
               <div class="card-footer">
