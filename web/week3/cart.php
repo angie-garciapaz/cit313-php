@@ -41,6 +41,8 @@ session_start();
                 $_SESSION["cart"][$_POST["submit"]] = 1;
         }
 
+        $myObj = JSON.parse($_POST["submit"]);
+        var_dump($myObj);
 
         ?>
 

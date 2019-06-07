@@ -97,7 +97,7 @@ session_start();
                 </h4>
                 <h5>$14.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-                <button type="submit" name="submit" value="Chicken Korma" class="btn btn-warning btn-lg">Add to Cart</button>
+                <button type="submit" name="submit" value="{image: 'images/pic1-3', name: 'Chicken Korma', price: '$14.99'}" class="btn btn-warning btn-lg">Add to Cart</button>
                 </form>
 
               </div>
