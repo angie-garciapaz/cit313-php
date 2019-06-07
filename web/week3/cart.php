@@ -46,7 +46,7 @@ session_start();
 
         <!-- image goes here -->
         <div class="col-xs-3">
-
+        echo    
         </div>
 
         <!-- description goes here -->
